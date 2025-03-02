@@ -31,6 +31,7 @@ body{
     margin: 5px;
     display: flex;
     flex-direction: row;
+    align-content: center;
 }
 
 .but{
