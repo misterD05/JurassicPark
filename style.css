@@ -16,7 +16,6 @@ html{
     height: auto;
     font-family: "Zen Tokyo Zoo", system-ui;
     font-weight: 400;
-    color: var(--white);
 }
 
 
@@ -24,6 +23,7 @@ body{
     height: 100%;
     width: auto;
     background: var(--obsidian);
+    color: var(--white);
 }
 
 #menuBar{
