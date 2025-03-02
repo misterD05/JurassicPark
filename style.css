@@ -16,6 +16,7 @@ html{
     height: auto;
     font-family: "Zen Tokyo Zoo", system-ui;
     font-weight: 400;
+    color: var(--white);
 }
 
 
