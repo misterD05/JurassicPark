@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+:root{
+    --redJurassic:#8b0000;
+    --amber:#ced02d;
+    --greenWater:#00919c;
+    --white:#faebd7;
+    --obsidian: #000000;
+}
+
+
+
+
+html{
+    width: 100%;
+    height: auto;
+    font-family: "Zen Tokyo Zoo", system-ui;
+    font-weight: 400;
+}
+
+
+body{
+    height: 100%;
+    width: auto;
+    background: var(--obsidian);
+}
+
+#menuBar{
+    backdrop-filter: 4px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
