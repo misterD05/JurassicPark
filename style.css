@@ -29,8 +29,15 @@ body{
     backdrop-filter: 4px;
     border-radius: 20px;
     margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.but{
+    margin:10px;
 }
 
 a{
     text-decoration: none;
+    color: var(--redJurassic);
 }
