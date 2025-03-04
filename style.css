@@ -35,10 +35,6 @@ body{
     align-items: center;
 }
 
-#logo{
-    visibility: hidden;
-}
-
 .but{
     margin:10px;
     font-size: xx-large;
