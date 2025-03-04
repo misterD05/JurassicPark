@@ -27,7 +27,7 @@ body{
 }
 
 #menuBar{
-    backdrop-filter: 4px;
+    backdrop-filter: blur(4px);
     border-radius: 20px;
     margin: 5px;
     display: flex;
