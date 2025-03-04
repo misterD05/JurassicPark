@@ -11,3 +11,11 @@
     left: 0%;
     visibility: 50%;
 }
+h1{
+    z-index: 0;
+}
+
+
+p{
+    z-index: 0;
+}
