@@ -42,7 +42,6 @@ body{
 
 .but{
     margin:10px;
-    font-size: x-large;
     padding: 10px;
     height: auto;
     width: auto;
@@ -50,9 +49,11 @@ body{
     background: #303030f4 ;
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 .lab{
+    font-size: large;
     display: none;
 }
 
