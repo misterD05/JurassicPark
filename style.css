@@ -35,6 +35,10 @@ body{
     align-items: center;
 }
 
+#logo{
+    background: none;
+}
+
 .but{
     margin:10px;
     font-size: x-large;
