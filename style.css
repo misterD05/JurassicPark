@@ -27,7 +27,6 @@ body{
 }
 
 #menuBar{
-    width: 30%;
     backdrop-filter: blur(4px);
     border-radius: 20px;
     margin: 5px;
@@ -35,6 +34,7 @@ body{
     flex-direction: row;
     align-items: center;
     position: fixed;
+    padding: 10%;
 }
 
 #logo{
