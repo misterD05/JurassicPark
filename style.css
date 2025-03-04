@@ -34,7 +34,7 @@ body{
     flex-direction: row;
     align-items: center;
     position: fixed;
-    width: 100%;
+    width: 98%;
     height: auto;
     background-color: #0000004a;
 }
@@ -75,7 +75,8 @@ body{
 
 #mrdna{
     background: #909090f4 ;
-    margin-right: 10px;
+    position: fixed;
+    right: 10px;
 }
 
 a{
