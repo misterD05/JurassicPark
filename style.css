@@ -73,6 +73,11 @@ body{
     display: block;
 }
 
+#mrdna{
+    background: #909090f4 ;
+    margin-right: 10px;
+}
+
 a{
     text-decoration: none;
     color: var(--redJurassic);
