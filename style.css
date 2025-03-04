@@ -41,13 +41,14 @@ body{
 }
 
 .but{
+    flex-shrink: 0; 
     margin:10px;
     font-size: x-large;
     padding: 10px;
     height: auto;
     width: auto;
     border-radius: 20px;
-    background: #303030d2 ;
+    background: #303030f4 ;
 }
 
 a{
