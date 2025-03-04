@@ -34,7 +34,8 @@ body{
     flex-direction: row;
     align-items: center;
     position: fixed;
-    padding-right: 100px;
+    width: 455px;
+    height: auto;
 }
 
 #logo{
