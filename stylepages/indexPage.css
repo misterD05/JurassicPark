@@ -4,13 +4,12 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     z-index: 0;
 }
 
 .containerImage{
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
