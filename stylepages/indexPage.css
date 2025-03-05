@@ -1,3 +1,10 @@
+
+#content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 #menuBar{
     z-index: 10;
 }
