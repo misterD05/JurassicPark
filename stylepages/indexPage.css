@@ -48,6 +48,7 @@ h1{
 p{
     justify-content: center;
     font-weight: 1;
+    margin: 10px;
 }
 
 #descLoc{
@@ -56,5 +57,10 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between 10px;
 }
+
+
+#pianta{
+    margin: 10px;
+}
+
