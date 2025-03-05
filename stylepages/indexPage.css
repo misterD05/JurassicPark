@@ -49,3 +49,11 @@ p{
     justify-content: center;
     font-weight: 1;
 }
+
+#descLoc{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
