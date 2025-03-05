@@ -60,7 +60,17 @@ body{
     display: none;
 }
 
-.but:hover{
+#dinos:hover{
+    animation-name: grow;
+    animation-duration: 400ms;
+}
+
+#gadgets:hover{
+    animation-name: grow;
+    animation-duration: 400ms;
+}
+
+#aboutUs:hover{
     animation-name: grow;
     animation-duration: 400ms;
 }
