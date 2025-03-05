@@ -60,7 +60,7 @@ body{
     display: none;
 }
 
-#dinos:not(:hover){
+#dinos{
     animation-name: degrow;
     animation-duration: 400ms;
 }
