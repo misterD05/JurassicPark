@@ -9,6 +9,11 @@
     z-index: 0;
 }
 
+.containerImage{
+    width: auto;
+    height: auto;
+}
+
 #menuBar{
     z-index: 1;
 }
