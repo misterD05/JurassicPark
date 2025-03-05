@@ -60,13 +60,28 @@ body{
     display: none;
 }
 
+#dinos:not(:hover){
+    animation-name: degrow;
+    animation-duration: 400ms;
+}
+
 #dinos:hover{
     animation-name: grow;
     animation-duration: 400ms;
 }
 
+#gadgets:not(:hover){
+    animation-name: degrow;
+    animation-duration: 400ms;
+}
+
 #gadgets:hover{
     animation-name: grow;
+    animation-duration: 400ms;
+}
+
+#aboutUs:not(:hover){
+    animation-name: degrow;
     animation-duration: 400ms;
 }
 
@@ -92,35 +107,52 @@ body{
     animation-name: revisible;
     animation-duration: 400ms;
     display: block;
+   
 }
 
+
 @keyframes grow{
-    0%{
-        transform: scale(1, 1.025);
-    }
     25%{
-        transform: scale(1, 1.05);
+        transform: scale(1, 1.01);
     }
     50%{
-        transform: scale(1, 1.075);
+        transform: scale(1, 1.02);
+    }
+    75%{
+        transform: scale(1, 1.03);
     }
     100%{
-        transform: scale(1, 1.1);
+        transform: scale(1, 1.04);
+    }
+}
+
+@keyframes degrow{
+    100%{
+        transform: scale(1, 1.01);
+    }
+    75%{
+        transform: scale(1, 1.02);
+    }
+    50%{
+        transform: scale(1, 1.03);
+    }
+    25%{
+        transform: scale(1, 1.04);
     }
 }
 
 @keyframes revisible{
-    0%{
-        visibility: 25%;
-    }
     25%{
-        visibility: 50%;
+        opacity: 25%;
     }
     50%{
-        visibility: 75%;
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
     }
     100%{
-        visibility: 100%;
+        opacity: 100%;
     }
 }
 
