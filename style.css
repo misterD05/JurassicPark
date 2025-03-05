@@ -60,18 +60,27 @@ body{
     display: none;
 }
 
-#dinos:hover #lab1{
+.but:hover{
     animation-name: grow;
+    animation-duration: 400ms;
+}
+
+#dinos:hover #lab1{
+    animation-name: revisible;
     animation-duration: 400ms;
     display: block;
 }
 
 
 #gadgets:hover #lab2{
+    animation-name: revisible;
+    animation-duration: 400ms;
     display: block;
 }
 
 #aboutUs:hover #lab3{
+    animation-name: revisible;
+    animation-duration: 400ms;
     display: block;
 }
 
@@ -79,16 +88,32 @@ body{
     0%{
         transform: scale(1, 1.25);
     }
-    0%{
+    25%{
         transform: scale(1, 1.5);
     }
-    0%{
+    50%{
         transform: scale(1, 1.75);
     }
     100%{
         transform: scale(1, 2);
     }
 }
+
+@keyframes revisible{
+    0%{
+        visibility: 25%;
+    }
+    25%{
+        visibility: 50%;
+    }
+    50%{
+        visibility: 75%;
+    }
+    100%{
+        visibility: 100%;
+    }
+}
+
 
 #mrdna{
     position: fixed;
