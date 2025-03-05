@@ -94,6 +94,7 @@ body{
     animation-name: revisible;
     animation-duration: 400ms;
     display: block;
+    opacity: 0%;
 }
 
 
@@ -101,12 +102,14 @@ body{
     animation-name: revisible;
     animation-duration: 400ms;
     display: block;
+    opacity: 0%;
 }
 
 #aboutUs:hover #lab3{
     animation-name: revisible;
     animation-duration: 400ms;
     display: block;
+    opacity: 0%;
    
 }
 
