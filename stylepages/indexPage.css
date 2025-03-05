@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+:root{
+    --redJurassic:#8b0000;
+    --amber:#ced02d;
+    --greenWater:#00919c;
+    --white:#faebd7;
+    --obsidian: #000000;
+}
+
+
 
 #content{
     width: 100%;
@@ -24,6 +35,10 @@
     width: 100%;
     height: auto;
     visibility: 50%;
+}
+
+#subtitle{
+    color: var(--redJurassic)
 }
 
 h1{
