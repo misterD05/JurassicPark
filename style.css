@@ -28,8 +28,6 @@ body{
 
 #menuBar{
     backdrop-filter: blur(4px);
-    border-radius: 20px;
-    margin: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
