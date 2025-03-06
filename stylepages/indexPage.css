@@ -38,7 +38,10 @@
 }
 
 #subtitle{
-    color: var(--redJurassic)
+    color: transparent;
+    background: linear-gradient(to right,var(--redJurassic), var(--amber));
+    background-clip: text;
+
 }
 
 h1{
