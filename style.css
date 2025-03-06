@@ -32,9 +32,12 @@ body{
     flex-direction: row;
     align-items: center;
     position: fixed;
-    width: 98%;
+    width: 100%;
     height: auto;
     background-color: #0000004a;
+    position:fixed;
+    left:0%;
+    top:0%;
 }
 
 #logo{
