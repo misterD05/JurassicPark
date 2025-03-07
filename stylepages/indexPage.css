@@ -29,6 +29,7 @@
     color: transparent;
     background: linear-gradient(to right,var(--redJurassic), var(--amber));
     background-clip: text;
+    font-size: x-large;
 
 }
 
@@ -39,7 +40,8 @@ h1{
 p{
     justify-content: center;
     font-weight: 1;
-    margin: 10px;
+    margin: 50px;
+    font-size: medium;
 }
 
 #descLoc{
@@ -53,4 +55,5 @@ p{
 
 #pianta{
     margin: 10px;
+    margin-left: 50px;
 }
