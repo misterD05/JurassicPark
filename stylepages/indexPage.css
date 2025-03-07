@@ -119,7 +119,7 @@ p{
 }
 
 #facebok:hover{
-    animation-name: colorFac;
+    animation-name: colorFace;
     animation-duration: 1s;
     animation-fill-mode: forward; 
 }
@@ -148,7 +148,7 @@ p{
     }
 }
 
-@keyframes colorrTik{
+@keyframes colorTik{
     from{
         text-shadow:#303030f4 ;
     }
