@@ -111,3 +111,49 @@ p{
 #address{
     margin:10px;
 }
+
+#instagram:hover{
+    animation-name: colorInsta;
+    animation-duration: 1s;
+    animation-fill-mode: forward; 
+}
+
+#facebok:hover{
+    animation-name: colorFac;
+    animation-duration: 1s;
+    animation-fill-mode: forward; 
+}
+
+#tiktok:hover{
+    animation-name: colorTik;
+    animation-duration: 1s;
+    animation-fill-mode: forward;
+}
+
+@keyframes colorInsta{
+    from{
+        background:#303030f4 ;
+    }
+    to{
+        background: linear-gradient(to bottom left, #002296, #82008f, #C0007A, #EA0C5F,#FF5341, #FF8820,#F6BA00 );
+    }
+}
+
+@keyframes colorFace{
+    from{
+        background:#303030f4 ;
+    }
+    to{
+        background: #1877F2;
+    }
+}
+
+@keyframes colorrTik{
+    from{
+        text-shadow:#303030f4 ;
+    }
+    to{
+        text-shadow: -2px -2px #69C9D0, 2px 2px #EE1D52;
+        
+    }
+}
