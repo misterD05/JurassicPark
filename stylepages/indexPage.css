@@ -161,7 +161,7 @@ p{
         text-shadow:#303030f4 ;
     }
     to{
-        filter: box-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
+        filter: drop-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
         
     }
 }
