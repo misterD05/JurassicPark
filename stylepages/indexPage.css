@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+)@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 
 :root{
     --redJurassic:#8b0000;
@@ -118,7 +118,7 @@ p{
     animation-fill-mode: forward; 
 }
 
-#facebok:hover{
+#facebook:hover{
     animation-name: colorFace;
     animation-duration: 1s;
     animation-fill-mode: forward; 
