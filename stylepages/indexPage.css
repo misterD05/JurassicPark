@@ -114,7 +114,7 @@ p{
 
 #instagram:hover{
     animation-name: colorInsta;
-    animation-duration: 1s;
+    animation-duration: 0.2s;
     animation-fill-mode: forwards; 
 }
 
@@ -131,13 +131,21 @@ p{
 }
 
 @keyframes colorInsta{
-    from{
+   
+
+    0%{
         background:linear-gradient(to bottom left,black, #303030f4 );
-    }
-    to{
-        background: linear-gradient(to bottom left, #002296, #82008f, #C0007A, #EA0C5F,#FF5341, #FF8820,#F6BA00 );
-    }
+   }
+
+   50%{
+       background: linear-gradient(to bottom left, #000074, #60006D, #A00058, #C80A3D,#DD3120, #DD6600,#D49800 );
+   }
+   
+   100%{
+       background: linear-gradient(to bottom left, #002296, #82008f, #C0007A, #EA0C5F,#FF5341, #FF8820,#F6BA00 );
+   }
 }
+
 
 @keyframes colorFace{
     from{
