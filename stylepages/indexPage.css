@@ -1,4 +1,4 @@
-)@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 
 :root{
     --redJurassic:#8b0000;
@@ -158,9 +158,9 @@ p{
 
 @keyframes colorTik{
     from{
-        text-shadow:#303030f4 ;
     }
     to{
+        -webkit-filter: drop-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
         filter: drop-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
         
     }
