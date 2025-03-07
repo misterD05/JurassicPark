@@ -95,6 +95,7 @@ p{
     margin:20px;
     margin-right:100px;
     align-items:center;
+    justify-content:center;
     padding:10px;
     background: #303030f4 ;
 }
