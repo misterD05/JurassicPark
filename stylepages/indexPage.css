@@ -115,19 +115,19 @@ p{
 #instagram:hover{
     animation-name: colorInsta;
     animation-duration: 1s;
-    animation-fill-mode: forward; 
+    animation-fill-mode: forwards; 
 }
 
 #facebook:hover{
     animation-name: colorFace;
     animation-duration: 1s;
-    animation-fill-mode: forward; 
+    animation-fill-mode: forwards; 
 }
 
 #tiktok:hover{
     animation-name: colorTik;
     animation-duration: 1s;
-    animation-fill-mode: forward;
+    animation-fill-mode: forwards;
 }
 
 @keyframes colorInsta{
