@@ -132,7 +132,7 @@ p{
 
 @keyframes colorInsta{
     from{
-        background:#303030f4 ;
+        background:linear-gradient(to bottom left, #303030f4 );
     }
     to{
         background: linear-gradient(to bottom left, #002296, #82008f, #C0007A, #EA0C5F,#FF5341, #FF8820,#F6BA00 );
