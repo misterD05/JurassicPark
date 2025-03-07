@@ -173,3 +173,122 @@ a{
     text-decoration: none;
     color: var(--redJurassic);
 }
+
+
+
+
+
+
+#content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+
+
+#footer{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width:100%;
+    height:auto;
+    padding:10px;
+    margin:10px;
+    margin-top:200px;
+    backdrop-filter: blur(10px);
+}
+
+
+#socials{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:100%;
+    height:auto;
+}
+
+.socialIcon{
+    width:40px;
+    height:auto;
+    border-radius:20px;
+    margin:20px;
+    margin-right:100px;
+    text-align:center;
+    padding:10px;
+    background: #303030f4 ;
+}
+
+
+#contacts{
+    display:flex;
+    flex-direction:column;
+    align-items:flexx-start;
+    width:auto;
+    height:auto;
+    margin:10px;
+}
+#address{
+    margin:10px;
+}
+
+#instagram:hover{
+    animation-name: colorInsta;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards; 
+}
+
+#facebook:hover{
+    animation-name: colorFace;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
+#tiktok:hover{
+    animation-name: colorTik;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorInsta{
+   
+
+    0%{
+        background:linear-gradient(to bottom left,black, #303030f4 );
+   }
+
+   50%{
+       background: linear-gradient(to bottom left, #000074, #60006D, #A00058, #C80A3D,#DD3120, #DD6600,#D49800 );
+   }
+   
+   100%{
+       background: linear-gradient(to bottom left, #002296, #82008f, #C0007A, #EA0C5F,#FF5341, #FF8820,#F6BA00 );
+   }
+}
+
+
+@keyframes colorFace{
+    from{
+        background:#303030f4 ;
+    }
+    to{
+        background: #1877F2;
+    }
+}
+
+@keyframes colorTik{
+    from{
+    }
+    to{
+        background: var(--obsidian);
+        -webkit-filter: drop-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
+        filter: drop-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
+        
+    }
+}
