@@ -89,3 +89,12 @@ p{
     height:auto;
     border-radius:20px;
 }
+
+
+#contacts{
+    display:flex;
+    flex-direction:column;
+    align-items:flexx-start;
+    width:auto;
+    height:auto;
+}
