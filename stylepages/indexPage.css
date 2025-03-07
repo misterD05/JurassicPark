@@ -93,6 +93,9 @@ p{
     height:auto;
     border-radius:20px;
     margin:20px;
+    margin-right:100px;
+    align-items:center;
+    padding:10px;
     background: #303030f4 ;
 }
 
