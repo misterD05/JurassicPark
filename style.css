@@ -288,8 +288,6 @@ a{
     }
     to{
         background: var(--obsidian);
-        -webkit-filter: drop-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
-        filter: drop-shadow(-2px -2px #69C9D0, 2px 2px #EE1D52);
-        
+        filter: drop-shadow(-2px -2px 0px #69C9D0) drop-shadow(2px 2px #EE1D52 );
     }
 }
