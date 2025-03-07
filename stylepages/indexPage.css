@@ -73,6 +73,10 @@ p{
     align-items:center;
     width:100%;
     height:auto;
+    position:fixed;
+    bottom:0%;
+    left:0%;
+    padding:10px;
 }
 
 
