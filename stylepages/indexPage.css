@@ -74,7 +74,7 @@ p{
     width:100%;
     height:auto;
     padding:10px;
-    background:var(--greenWater);
+    margin-top:40px;
     opacity:20%;
     backdrop-filter: blur(10px);
 }
@@ -88,7 +88,7 @@ p{
     height:auto;
 }
 
-.socialIcons{
+.socialIcon{
     width:40px;
     height:auto;
     border-radius:20px;
