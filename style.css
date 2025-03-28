@@ -71,6 +71,7 @@ body{
     animation-name: grow;
     animation-duration: 400ms;
     background:var(--redJurassic);
+    cursor: url("./img/hand\ \(1\).png"), auto;
 }
 
 #gadgets:not(:hover){
@@ -82,6 +83,7 @@ body{
     animation-name: grow;
     animation-duration: 400ms;
     background:var(--redJurassic);
+    cursor: url("./img/hand\ \(1\).png"), auto;
 }
 
 #aboutUs:not(:hover){
@@ -93,6 +95,7 @@ body{
     animation-name: grow;
     animation-duration: 400ms;
     background:var(--redJurassic);
+    cursor: url("./img/hand\ \(1\).png"), auto;
 }
 
 #dinos:hover #lab1{
