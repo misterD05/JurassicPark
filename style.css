@@ -70,6 +70,7 @@ body{
 #dinos:hover{
     animation-name: grow;
     animation-duration: 400ms;
+    background:var(--redJurassic);
 }
 
 #gadgets:not(:hover){
@@ -80,6 +81,7 @@ body{
 #gadgets:hover{
     animation-name: grow;
     animation-duration: 400ms;
+    background:var(--redJurassic);
 }
 
 #aboutUs:not(:hover){
@@ -90,6 +92,7 @@ body{
 #aboutUs:hover{
     animation-name: grow;
     animation-duration: 400ms;
+    background:var(--redJurassic);
 }
 
 #dinos:hover #lab1{
@@ -115,7 +118,7 @@ body{
     display: block;
     opacity: 0%;
     animation-fill-mode: forwards;
-   
+
 }
 
 
@@ -134,20 +137,7 @@ body{
     }
 }
 
-@keyframes degrow{
-    100%{
-        transform: scale(1, 1);
-    }
-    75%{
-        transform: scale(1, 1.05);
-    }
-    50%{
-        transform: scale(1, 1.03);
-    }
-    25%{
-        transform: scale(1, 1);
-    }
-}
+
 
 @keyframes revisible{
     25%{
@@ -242,13 +232,13 @@ a{
 #instagram:hover{
     animation-name: colorInsta;
     animation-duration: 0.2s;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
 }
 
 #facebook:hover{
     animation-name: colorFace;
     animation-duration: 1s;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
 }
 
 #tiktok:hover{
@@ -258,7 +248,7 @@ a{
 }
 
 @keyframes colorInsta{
-   
+
 
     0%{
         background:linear-gradient(to bottom left,black, #303030f4 );
@@ -267,7 +257,7 @@ a{
    50%{
        background: linear-gradient(to bottom left, #000074, #60006D, #A00058, #C80A3D,#DD3120, #DD6600,#D49800 );
    }
-   
+
    100%{
        background: linear-gradient(to bottom left, #002296, #82008f, #C0007A, #EA0C5F,#FF5341, #FF8820,#F6BA00 );
    }
