@@ -73,4 +73,8 @@ mrdna.addEventListener('click', function () {
 
 
 let submitCheck = document.getElementById('submitFirst');
+submitCheck.addEventListener("click", visualizeEl);
 
+function visualizeEl(){
+  
+}

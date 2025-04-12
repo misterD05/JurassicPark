@@ -36,25 +36,44 @@
     <div id="contentG">
 
         <h1 id="subtitle">Before buy gadgets subscribe to the page:</h1>
-        <form method="post" id="formSubscribe">
-            <label>Name</label>
-            <input type="text" name="name">
-            <label>Surame</label>
-            <input type="text" name="surname">
-            <label>Date</label>
-            <input type="date" name="date">
-            <label>Gender</label>
-            <div id="gender">
-                <input type="radio" name="gender" value="male">
-                <label>Male</label>
-                <input type="radio" name="gender" value="female">
-                <label>Female</label>
+        <form method="post" >
+            <div id="formSubscribe">
+                <label>Name</label>
+                <input type="text" name="name">
+                <label>Surame</label>
+                <input type="text" name="surname">
+                <label>Date</label>
+                <input type="date" name="date">
+                <label>Gender</label>
+                <div id="gender">
+                    <input type="radio" name="gender" value="male">
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label>Female</label>
+                </div>
+                <label>Email</label>
+                <input type="email" name="email">
+                <input type="button" id="submitFirst" value="Subscribe">    
+                
+            </div>  
+            <div id="answersSubscribe">
+                <label>Name</label>
+                <label id="nameR"></label>
+                <label>Surame</label>
+                <label id="surnameR"></label>
+                <label>Date of birth</label>
+                <label id="dateR"></label>
+                <label>Gender</label>
+                <label id="genderR"></label>
+                <label>Email</label>
+                <label id="emailR"></label>
+                <input type="submit" id="submit" value="Subscribe">
+                <input type="button" id="close"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNjZWQwMmQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1jaXJjbGUteC1pY29uIGx1Y2lkZS1jaXJjbGUteCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJtMTUgOS02IDYiLz48cGF0aCBkPSJtOSA5IDYgNiIvPjwvc3ZnPg=="></input>
             </div>
-            <label>Email</label>
-            <input type="email" name="email">
-            <input type="submit" id="submit" value="Subscribe">
-            <input type="button" id="submitFirst" value="Subscribe">
+
         </form>
+
+
 
         <div id="footer">
             <div id="socials">

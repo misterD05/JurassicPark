@@ -14,12 +14,16 @@
     grid-template-columns: auto auto;
 }
 
+#answerSubscribe{
+    visibility:hidden;
+    display: grid ;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
 #gender{
     display: grid ;
     column-gap: 5px;
     grid-template-columns: auto auto;
 }
 
-#submit{
-    visibility:hidden;
-}
