@@ -73,8 +73,20 @@ mrdna.addEventListener('click', function () {
 
 
 let submitCheck = document.getElementById('submitFirst');
+let answerSubmit = document.getElementById('answersSubscribe');
+let formSubscribe= document.getElementById('formSubscribe');
+let closeButon=document.getElementById('close');
 submitCheck.addEventListener("click", visualizeEl);
+closeButton.addEventListener("click", visualizeElI);
 
 function visualizeEl(){
-  
+  answerSubmit.style.visiibility = "vissible";
+  formSubscribe.style.visibility="hidden";
+
+}
+
+
+function visualizeElI(){
+  answerSubmit.style.visiibility = "hidden";
+  formSubscribe.style.visibility="visibility";
 }

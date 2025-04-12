@@ -14,7 +14,7 @@
     grid-template-columns: auto auto;
 }
 
-#answerSubscribe{
+#answerrSubscribe{
     visibility:hidden;
     display: grid ;
     column-gap: 10px;
