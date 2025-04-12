@@ -80,13 +80,13 @@ submitCheck.addEventListener("click", visualizeEl);
 closeButton.addEventListener("click", visualizeElI);
 
 function visualizeEl(){
-  answerSubmit.style.visiibility = "visible";
+  answerSubmit.style.visibility = "visible";
   formSubscribe.style.visibility="hidden";
 
 }
 
 
 function visualizeElI(){
-  answerSubmit.style.visiibility = "hidden";
+  answerSubmit.style.visibility = "hidden";
   formSubscribe.style.visibility="visible";
 }
