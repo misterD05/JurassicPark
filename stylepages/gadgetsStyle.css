@@ -23,6 +23,11 @@
     grid-template-columns: auto auto;
 }
 
+#close{
+    width:auto;
+    height:auto;
+} 
+
 #gender{
     display: grid ;
     column-gap: 5px;
