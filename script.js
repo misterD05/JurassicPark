@@ -81,10 +81,10 @@ closeButton.addEventListener("click", visualizeElI);
 
 function visualizeEl(){
   answerSubmit.style.visibility = "visible";
-  document.getElementById('nameR').style.content = document.getElementById('name').style.content;
-  document.getElementById('surnameR').style.content = document.getElementById('surname').style.content;
-  document.getElementById('dateR').style.content = document.getElementById('date').style.content;
-  document.getElementById('emailR').style.content = document.getElementById('email').style.content;
+  document.getElementById('nameR').value = document.getElementById('name').value;
+  document.getElementById('surnameR').value = document.getElementById('surname').value;
+  document.getElementById('dateR').value = document.getElementById('date').value;
+  document.getElementById('emailR').value = document.getElementById('email').value;
   formSubscribe.style.visibility="hidden";
 
 }
