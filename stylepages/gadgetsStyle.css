@@ -11,6 +11,7 @@
 #formSubscribe {
     display: grid ;
     column-gap: 10px;
+    row-gap:5px;
     grid-template-columns: auto auto;
 }
 
@@ -18,12 +19,14 @@
     visibility:hidden;
     display: grid ;
     column-gap: 10px;
+    row-gap:5px;
     grid-template-columns: auto auto;
 }
 
 #gender{
     display: grid ;
     column-gap: 5px;
+    row-gap:5px;
     grid-template-columns: auto auto;
 }
 
