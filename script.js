@@ -75,12 +75,16 @@ mrdna.addEventListener('click', function () {
 let submitCheck = document.getElementById('submitFirst');
 let answerSubmit = document.getElementById('answersSubscribe');
 let formSubscribe= document.getElementById('formSubscribe');
-let closeButon=document.getElementById('close');
+let closeButton=document.getElementById('close');
 submitCheck.addEventListener("click", visualizeEl);
 closeButton.addEventListener("click", visualizeElI);
 
 function visualizeEl(){
   answerSubmit.style.visibility = "visible";
+  document.getElementById('nameR').style.content = document.getElementById('name').style.content;
+  document.getElementById('surnameR').style.content = document.getElementById('surname').style.content;
+  document.getElementById('dateR').style.content = document.getElementById('date').style.content;
+  document.getElementById('emailR').style.content = document.getElementById('email').style.content;
   formSubscribe.style.visibility="hidden";
 
 }
