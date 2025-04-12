@@ -15,6 +15,11 @@
 }
 
 #gender{
-    display: flex;
-    flex-direction:column ;
+    display: grid ;
+    column-gap: 5px;
+    grid-template-columns: auto auto;
+}
+
+#submit{
+    visibility:hidden;
 }
