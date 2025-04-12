@@ -1,3 +1,9 @@
+#content{
+    position:absolute;
+    top:25%;
+    margin:10px;
+}
+
 #formSubscribe {
     display: grid ;
     grid-template-columns: auto auto;
