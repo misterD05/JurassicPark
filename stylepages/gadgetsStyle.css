@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 1;
+    position:absolute;
+    top:350px;
 }
 
 #formSubscribe {
     display: grid ;
+    column-gap: 10px;
     grid-template-columns: auto auto;
 }
 
