@@ -1,0 +1,9 @@
+#formSubscribe {
+    display: grid ;
+    grid-template-columns: auto auto;
+}
+
+#gender{
+    display: flex;
+    flex-direction:column ;
+}
