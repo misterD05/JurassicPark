@@ -30,7 +30,7 @@ document.getElementById("aboutUs").animate([
 
 mrdna.addEventListener('click', function () {
     if (document.getElementById('gadgets').style.visibility == "visible") {
-        
+
         document.getElementById('aboutUs').style.visibility = "hidden";
         document.getElementById('dinos').style.visibility = "hidden";
         document.getElementById('gadgets').style.visibility = "hidden";
@@ -80,12 +80,22 @@ submitCheck.addEventListener("click", visualizeEl);
 closeButton.addEventListener("click", visualizeElI);
 
 function visualizeEl(){
-  answerSubmit.style.visibility = "visible";
-  document.getElementById('nameR').innerHTML = document.getElementById('name').value;
-  document.getElementById('surnameR').innerHTML = document.getElementById('surname').value;
-  document.getElementById('dateR').innerHTML = document.getElementById('date').value;
-  document.getElementById('emailR').innerHTML = document.getElementById('email').value;
-  formSubscribe.style.visibility="hidden";
+    let name = document.getElementById('name').value;
+    let surname = document.getElementById('surname').value;
+    let date = document.getElementById('date').value;
+    let email = document.getElementById('email').value;
+
+    if (name != "" && surname != "" && date != "" && email != "") {
+        document.getElementById('nameR').innerHTML = name;
+        document.getElementById('surnameR').innerHTML = surname;
+        document.getElementById('dateR').innerHTML = date;
+        document.getElementById('emailR').innerHTML = email;
+        answerSubmit.style.visibility = "visible";
+        formSubscribe.style.visibility="hidden";
+    }
+
+
+
 
 }
 
