@@ -1,14 +1,17 @@
-var answer =  fetch("../data.txt");
 
-answer.then(check).then(saveNewAccount)
 
-function check() {
-    console.log(response.status)
-}
+const document2 = document.innerHTML;
 
-function saveNewAccount() {
-    console.log(answer.text)
-}
+
+let button = document.getElementById("dinosPage");
+button.addEventListener('click', async function () {
+    let response = await fetch("./html/dinosaurs").then(function (response) { return response.text() });
+
+    console.log(response);
+    document.innerHTML = (response);
+
+})
+
 
 
 

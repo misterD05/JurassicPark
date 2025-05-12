@@ -67,6 +67,11 @@ body{
     animation-duration: 400ms;
 }
 
+#dinosPage{
+    background: none;
+    border: none;
+}
+
 #dinos:hover{
     animation-name: grow;
     animation-duration: 400ms;
