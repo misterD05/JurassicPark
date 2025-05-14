@@ -9,7 +9,10 @@
 }
 
 
-
+#contentD{
+    position:absolute;
+    top:350px;
+}
 
 .DinoContainer{
     width: 100%;
