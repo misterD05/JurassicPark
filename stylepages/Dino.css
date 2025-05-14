@@ -17,13 +17,18 @@
 .DinoContainer{
     width: 100%;
     height: auto;
-    background: url("https://misterd05.github.io/JurassicPark/img/trexInfo.png") no repeat;
     border-radius: 20px;
     box-shadow: 2px 2px var(--amber), -2px -2px var(--amber);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
+
+#Trex{
+    display: flex;
+    flex-direction: row;
+}
+
 
 #trex{
     border-radius: 20px;
