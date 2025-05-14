@@ -20,12 +20,14 @@
     background: url("./img/trexInfo.png") no repeat;
     border-radius: 20px;
     box-shadow: 2px 2px var(--amber), -2px -2px var(--amber);
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 #trex{
     border-radius: 20px;
     border: none;
     background: var(--amber);
-
+    margin: 10px;
 }
