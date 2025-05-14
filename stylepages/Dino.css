@@ -29,6 +29,8 @@
     flex-direction: row;
 }
 #title{
+    display: flex;
+    flex-direction: row;
     align-items: flex-start;
 }
 

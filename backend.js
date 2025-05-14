@@ -5,6 +5,7 @@ button.addEventListener('click', async function () {
         document.getElementById("title").innerHTML = ("<h1>Tirannosaurus Rex</h1>")
         document. getElementById("Trextext").innerHTML = ("<div></div>");
         visible = !visible;
+        document.getElementById("trex").innerHTML = "View";
     }else{
         let response = await fetch("https://misterd05.github.io/JurassicPark/trexInfo.json").then(function (response) { return response.json() });
 
@@ -18,6 +19,7 @@ button.addEventListener('click', async function () {
         document. getElementById("Trextext").insertAdjacentHTML('beforeend', '<h2>height: ' + response.height + '</h2>');
         document. getElementById("Trextext").insertAdjacentHTML('beforeend', '<h2>weight: ' + response.weight + '</h2>');
         visible = !visible;
+        document.getElementById("trex").innerHTML = "Close";
     }
 })
 
