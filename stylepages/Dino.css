@@ -17,7 +17,7 @@
 .DinoContainer{
     width: 100%;
     height: auto;
-    background: url("./img/trexInfo.png") no repeat;
+    background: url("https://misterd05.github.io/JurassicPark/img/trexInfo.png") no repeat;
     border-radius: 20px;
     box-shadow: 2px 2px var(--amber), -2px -2px var(--amber);
     display: flex;
