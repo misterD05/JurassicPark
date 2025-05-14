@@ -1,0 +1,9 @@
+{
+    "name": "T-Rex",
+    "scientificName":"Tirannosauro rex",
+    "type":"Dinosauro",
+    "diet" :"Carnivoro",
+    "length" :12,
+    "height" : 4,
+    "weight" : "5 - 8 Kkg"
+}

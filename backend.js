@@ -1,15 +1,14 @@
-
-
-const document2 = document.innerHTML;
-
-
-let button = document.getElementById("dinosPage");
+let button = document.getElementById("trex");
+let visible = false;
 button.addEventListener('click', async function () {
-    let response = await fetch("./html/dinosaurs").then(function (response) { return response.text() });
+    if(visible){
+        document. getElementById("Trex").innerHTML = "";
+    }else{
+        let response = await fetch("./Info/trexInfo.json").then(function (response) { return response.json() });
 
-    console.log(response);
-    document.innerHTML = (response);
-
+        console.log(response);
+        document. getElementById("Trex").innerHTML= (response);
+    }
 })
 
 

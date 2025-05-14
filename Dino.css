@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+:root{
+    --redJurassic:#8b0000;
+    --amber:#ced02d;
+    --greenWater:#00919c;
+    --white:#faebd7;
+    --obsidian: #000000;
+}
+
+
+
+
+.DinoContainer{
+    width: 100%;
+    height: auto;
+    background: url("./img/trexInfo.png") no repeat;
+    border-radius: 20px;
+    box-shadow: 2px 2px var(--amber), -2px -2px var(--amber);
+    
+}
+
+#trex{
+    border-radius: 20px;
+    border: none;
+    background: var(--amber);
+
+}
