@@ -82,20 +82,20 @@ html{
     margin: 10px;
 }
 
-.DinoContainer:hover #drone{
+.DinoContainer:hover #drone1{
     visibility: visible;
 
 }
 
-.DinoContainer:has(#Trextext:hover) #drone{
+.DinoContainer:has(#Trextext:hover) #drone1{
     visibility: hidden;
 }
 
-.DinoContainer:has(#imgTrex:hover) #drone{
+.DinoContainer:has(#imgTrex:hover) #drone1{
     visibility: hidden;
 }
 
-.DinoContainer:has(#trex:hover) #drone{
+.DinoContainer:has(#trex:hover) #drone1{
     visibility: hidden;
 }
 
@@ -135,19 +135,19 @@ html{
     margin: 10px;
 }
 
-.DinoContainer:hover #drone{
+.DinoContainer:hover #drone1{
     visibility: visible;
 
 }
 
-.DinoContainer:has(#Quetztext:hover) #drone{
+.DinoContainer:has(#Quetztext:hover) #drone1{
     visibility: hidden;
 }
 
-.DinoContainer:has(#imgQuetz:hover) #drone{
+.DinoContainer:has(#imgQuetz:hover) #drone1{
     visibility: hidden;
 }
 
-.DinoContainer:has(#quetz:hover) #drone{
+.DinoContainer:has(#quetz:hover) #drone1{
     visibility: hidden;
 }

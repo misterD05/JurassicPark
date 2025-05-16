@@ -36,7 +36,7 @@ button2.addEventListener('click', async function () {
         let response = await fetch("https://misterd05.github.io/JurassicPark/quetzInfo.json").then(function (response) { return response.json() });
 
         console.log(response);
-        document.getElementById("title2").innerHTML = ("<img src='../img/trexInfo.png' height='auto' width='100%' id='imgQuetz'  alt=''>")
+        document.getElementById("title2").innerHTML = ("<img src='../img/quetzInfo.png' height='auto' width='100%' id='imgQuetz'  alt=''>")
         document. getElementById("Quetztext").innerHTML= ("<h2>Name: " + response.name + "</h2>");
         document. getElementById("Quetztext").insertAdjacentHTML('beforeend', '<h2>scientificName: ' + response.scientificName + '</h2>');
         document. getElementById("Quetztext").insertAdjacentHTML('beforeend', '<h2>type: ' + response.type + '</h2>');
