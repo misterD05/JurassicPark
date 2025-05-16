@@ -1,0 +1,10 @@
+{
+    "name": "Quetzalcoatlus",
+    "scientificName":"Quetzalcoatlus",
+    "type":"Dinosauro",
+    "diet" :"Carnivoro",
+    "length" : 6,
+    "hieght" : 5.5,
+    "wingspan" : "11 - 21 m",
+    "weight" : "200 - 250 kg"
+}
